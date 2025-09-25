@@ -1,9 +1,10 @@
 package navire;
 
 public class Element {
+private boolean touche;
 
-	public Element() {
-		 
-	}
+public boolean isTouche() {
+	return touche;
+}
 
 }
